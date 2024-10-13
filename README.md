@@ -1,11 +1,11 @@
 # LaraHub
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tightenco/larahub.svg?style=flat-square)](https://packagist.org/packages/tightenco/larahub)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/tighten/larahub/.github/workflows/tests.yml?branch=main&label=tests)](https://github.com/tighten/larahub/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/partridge-rocks/larahub.svg?style=flat-square)](https://packagist.org/packages/partridge-rocks/larahub)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/PartridgeRocks/larahub/.github/workflows/tests.yml?branch=main&label=tests)](https://github.com/PartridgeRocks/larahub/actions?query=workflow%3Arun-tests+branch%3Amain)
 
 
 
-Bridging the Gap betwen Laravel and Github
+Bridging the Gap between Laravel and Github
 
 ## Installation
 
@@ -37,7 +37,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email hello@tighten.co instead of using the issue tracker.
+If you discover any security related issues, please email jordan@partridge.rocks instead of using the issue tracker.
 
 ## Credits
 
