@@ -1,10 +1,10 @@
 <?php
 
-namespace Tighten\partridge-rocks;
+namespace PartridgeRocks\Larahub\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class partridge-rocksFacade extends Facade
+class Larahub extends Facade
 {
     protected static function getFacadeAccessor()
     {
