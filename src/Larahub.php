@@ -1,8 +1,8 @@
 <?php
 
-namespace Tighten\partridge-rocks;
+namespace PartridgeRocks\Larahub;
 
-class partridge-rocks
+class Larahub
 {
     public function __construct()
     {

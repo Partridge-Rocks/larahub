@@ -1,10 +1,10 @@
 <?php
 
-namespace Tighten\partridge-rocks;
+namespace PartridgeRocks\Larahub;
 
 use Illuminate\Support\ServiceProvider;
 
-class partridge-rocksServiceProvider extends ServiceProvider
+class LarahubServiceProvider extends ServiceProvider
 {
     public function boot()
     {
