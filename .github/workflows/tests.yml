@@ -29,4 +29,4 @@ jobs:
           composer-options: "--ignore-platform-reqs --no-plugins"
 
       - name: Run PHP tests
-        run: vendor/bin/phpunit
+        run: vendor/bin/pest --parallel
