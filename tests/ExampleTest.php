@@ -1,6 +1,6 @@
 <?php
 
-namespace Tighten\:package_php_namespace\Tests;
+namespace Tighten\partridge-rocks\Tests;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,18 +1,20 @@
 {
-    "name": "tightenco/:package_name",
-    "description": ":package_description",
+    "name": "partridge-rocks/larahub",
+    "description": "A package aimed at bridging the gap between Laravel and GitHub",
     "keywords": [
-        "tightenco",
-        ":package_name",
+        "partridge-rocks",
+        "larahub",
+        "laravel",
+        "github",
         "php"
     ],
-    "homepage": "https://github.com/tighten/:package_name",
+    "homepage": "https://github.com/partridge-rocks/larahub",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://tighten.com",
+            "name": "Jordan Partridge",
+            "email": "jordan@partridge.rocks",
+            "homepage": "https://partridge.rocks",
             "role": "Developer"
         }
     ],
@@ -25,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Tighten\\:package_php_namespace\\": "src"
+            "PartridgeRocks\\Larahub\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tighten\\:package_php_namespace\\Tests\\": "tests"
+            "PartridgeRocks\\Larahub\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -42,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tighten\\:package_php_namespace\\:package_php_namespaceServiceProvider"
+                "PartridgeRocks\\Larahub\\LarahubServiceProvider"
             ],
             "aliases": {
-                ":package_php_namespace": "Tighten\\:package_php_namespace\\:package_php_namespaceFacade"
+                "Larahub": "PartridgeRocks\\Larahub\\LarahubFacade"
             }
         }
     },
